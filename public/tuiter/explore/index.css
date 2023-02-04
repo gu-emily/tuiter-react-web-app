@@ -1,0 +1,126 @@
+.wd-explore-page {
+  position: relative;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.wd-search-bar {
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid rgb(47, 51, 54);
+  border-bottom: none;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.wd-explore-page .wd-search-bar .fa-solid.fa-magnifying-glass {
+  position: absolute;
+  top: 40px;
+  left: 25px;
+  font-size: 25px;
+  color: rgb(47, 51, 54);
+}
+
+.wd-search-bar input {
+  background-color: dimgrey;
+  color: white;
+  height: 40px;
+  padding-left: 50px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+}
+
+.wd-search-bar input::placeholder {
+  color: white;
+  opacity: 0.75;
+}
+
+.wd-explore-page .wd-search-bar .fa-solid.fa-gear {
+  font-size: 40px;
+  color: blue;
+  padding-right: 12px;
+  padding-left: 20px;
+}
+
+.wd-hyperlinks {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border: 1px solid rgb(47, 51, 54);
+  border-top: none;
+  border-bottom: 3px solid rgb(47, 51, 54);
+}
+
+.wd-hyperlinks .wd-first-link {
+  border-bottom: 3px solid rgb(29, 161, 242);
+  padding: 16px;
+}
+
+.wd-hyperlinks .wd-first-link a {
+  color: rgb(29, 161, 242);
+  font: 15px Arial;
+  text-decoration: none;
+}
+
+.wd-hyperlinks .wd-other-links {
+  padding: 16px;
+}
+
+.wd-hyperlinks .wd-other-links a {
+  color: rgb(110, 118, 125);
+  font: 15px Arial;
+  text-decoration: none;
+}
+
+.wd-explore-page .wd-suggested-posts {
+  box-sizing: border-box;
+  border: 1px solid rgb(47, 51, 54);
+  margin-top: 10px;
+}
+
+.wd-explore-page .wd-suggested-posts .wd-each-post {
+  padding-left: 16px;
+}
+
+.wd-suggested-topic {
+  font: 13px Arial;
+  color: rgb(110, 118, 125);
+  margin-bottom: 5px;
+}
+
+.wd-suggested-topic b {
+  color: white;
+  margin-bottom: 5px;
+  font-weight:bold;
+  font-style: italic;
+}
+
+.wd-explore-page .wd-suggested-posts .wd-each-post .wd-suggested-tweets {
+  font: 13px Arial;
+  color: rgb(110, 118, 125);
+  margin-top: 5px;
+}
+
+.wd-explore-page .wd-imaged-posts {
+  box-sizing: border-box;
+  border: 1px solid rgb(47, 51, 54);
+  margin-top: 10px;
+}
+
+.wd-each-imaged-post {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: 1px solid rgb(47, 51, 54);
+  padding-left: 16px;
+  margin: 0;
+}
+
+.wd-post-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin: 16px;
+}
