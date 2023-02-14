@@ -1,0 +1,19 @@
+.wd-body {
+  background-color: black;
+  border-color: rgb(47, 51, 54);
+  padding-left: 16px;
+  font: 14px Arial;
+}
+
+.wd-back-link {
+  text-decoration: none;
+  margin-bottom:10px;
+}
+
+.wd-suggested-title {
+  font: 15px Arial;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
